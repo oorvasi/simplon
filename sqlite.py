@@ -2,7 +2,7 @@ import sqlite3 as lit
 
 def main():
     try:
-        db = lit.connect('apprenant.db')
+        db = lit.connect('simplon.db')
 
     except:
         print("Failed to create database")
