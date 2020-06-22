@@ -5,7 +5,7 @@ def main():
         db = lit.connect('simplon.db')
         cur=db.cursor()
 
-        tablequery = "CREATE TABLE apprenant(id INT, name TEXT, age INT, hobbies TEXT)"
+        tablequery = "CREATE TABLE apprenant(Name TEXT, Age INT, Hobbies TEXT)"
 
         cur.execute(tablequery)
         print("Table Created Successfully")
